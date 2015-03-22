@@ -142,6 +142,11 @@ outofsample_error <- 1 - cm.rf$overall['Accuracy']
 Hence, the estimated out of sample error = `r sprintf("%.2f %%", 100*outofsample_error)`.
 
 
+##Conclusion
+As can be seen from the confusion matrix above, this model is very accurate. 
+I did experiment with PCA and other models, but did not get as good of accuracy.
+Since test data achieve 99% accuracy, I expected nearly all of the submitted test cases to be correct. It turned out they were all correct.
+
 ##Appendix
 
 ####A. Variables/Columns Removed as Predictors
